@@ -7,6 +7,9 @@ compiler: gcc
 
 addons:
   apt:
+    sources:
+      # CMake 3.x : https://askubuntu.com/a/610352/11666
+      - sourceline: 'ppa:george-edison55/cmake-3.x'
     packages:
       - cmake
 
