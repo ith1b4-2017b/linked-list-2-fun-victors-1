@@ -1,5 +1,8 @@
 # Specify the minimum version for CMake
-cmake_minimum_required (VERSION 2.8)
+cmake_minimum_required (VERSION 3.1)
+
+# C++11: https://stackoverflow.com/a/31010221/122441
+set (CMAKE_CXX_STANDARD 11)
 
 # Project's name
 project (linked-list-2)
