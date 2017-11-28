@@ -19,3 +19,4 @@ script:
   - cmake -H. -Bbuild
   # generate the output program hello in bin folder
   - cmake --build build -- -j3
+  - bin/main < test01.txt
