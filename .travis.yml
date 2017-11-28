@@ -1,6 +1,5 @@
 # https://stackoverflow.com/a/41916657/122441
 dist: trusty
-sudo: require
 
 language: cpp
 compiler: gcc
